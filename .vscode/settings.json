@@ -1,0 +1,17 @@
+{
+  "files.exclude": {
+    "backend\\node_modules": true
+  },
+  "spellright.language": [
+    "en"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext",
+    "javascript"
+  ],
+  "cSpell.words": [
+    "Todos"
+  ]
+}
