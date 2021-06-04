@@ -2,6 +2,9 @@ const express = require('express')
 const app = express()
 const todo = require('../backend/routes/todos.js')
 const auth = require('../backend/routes/auth.js')
+require('dotenv').config()
+
+require('../backend/configs/db_config')
 const port = process.env.PORT || 8080
 // TODO Controller
 app.use('/api/v1', todo)
